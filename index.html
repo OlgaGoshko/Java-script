@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>App</title>
+</head>
+<body>
+  <div id="app" class="wrapper">
+    <section class="todo-list">
+      <div class="container">
+        <div class="todo-list__inner">
+          <!-- Title -->
+          <div class="todo-list__title title">
+            <h3 class="title__main">Todo List App</h3>
+          </div>
+          <!-- Form -->
+          <form class="todo-list__form form" id="todo-list-form">
+            <textarea class="form__field" id="note-field"></textarea>
+            <button class="form__button" type="submit">Записати</button>
+          </form>
+          <!-- Warning -->
+          <div class="todo-list__warning" id="warning">
+
+          </div>
+          <div class="todo-list__action">
+            <button class="todo-list__old" id="button-filter">Спочатку старі</button>
+          </div>
+          <!-- Todo List -->
+          <ul class="todo-list__items" id="todo-list-items">
+            
+          </ul>
+        </div>
+      </div>
+    </section>
+  </div>
+  
+  <!-- <script src="js/app.js"></script> -->
+  <script src="js/element.js"></script>
+</body>
+</html>

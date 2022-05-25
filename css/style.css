@@ -1,0 +1,73 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+ul {
+   list-style: none;
+}
+
+body {
+   font-family: sans-serif;
+   color: rgba(0, 0, 0, 0.8);
+}
+
+button {
+   padding: 5px 12px;
+   background: #000;
+   border: none;
+   color: #fff;
+   border-radius: 3px;
+
+}
+
+.container {
+   max-width: 600px;
+   margin: 0 auto;
+   padding: 0 20px;
+}
+
+.title__main {
+   font-size: 30px;
+   margin-bottom: 20px;
+}
+
+.form {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+}
+
+.todo-list__form {
+   margin-bottom: 10px;
+}
+
+.form__field {
+   margin-bottom: 20px;
+}
+
+.todo-list__items {
+   padding: 30px 0 30px;
+   display: flex;
+   flex-direction: column;
+}
+
+.todo-list__items.reverse {
+   flex-direction: column-reverse;
+}
+
+.todo-list__item {
+   margin-bottom: 20px;
+   display: flex;
+   align-items: center;
+}
+
+.todo-list__note {
+   margin: 0 15px;
+   flex: 1 0 auto;
+}
+
+.todo-list__warning {
+   color: red;
+}
